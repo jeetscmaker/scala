@@ -22,6 +22,14 @@ To compile the example, we use scalac, the Scala compiler. scalac works like mos
 source file as argument, maybe some options, and produces one or several object files. The object files
 it produces are standard Java class files.
 
+Once compiled, a Scala program can be run using the scala command. Its usage is very similar to the java
+command used to run Java programs, and accepts the same options. The above example can be executed using
+the following command, which produces the expected output:
+
+> scala -classpath . HelloWorld
+
+Hello, world!
+
 If we save the above program in a file called HelloWorld.scala, we can compile it by issuing the following
 command (the greater-than sign > represents the shell prompt and should not be typed):
 
